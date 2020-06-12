@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tweet</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="container-satu">
+                <div class="kotak1">
+                    <h4>
+                        Create Tweet
+                    </h4>
+                </div>
+                <div class="kotak2">
+                    <textarea
+                        class="kotak2"
+                        name=""
+                        id="userInput"
+                        cols="35"
+                        rows="15"
+                        placeholder="Tweet"
+                    ></textarea>
+                </div>
+                <div class="kotak3">
+                    <div id="submit">
+                        <input
+                            class="btn1"
+                            type="submit"
+                            value="Submit"
+                            onclick="submitTweet()"
+                        />
+                    </div>
+                </div>
+            </div>
+            <div class="container-dua">
+                <h4>Your Tweet</h4>
+                <div class="posted">
+                    <p id="posted"></p>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="soal5.js"></script>
+</html>
